@@ -16,7 +16,7 @@ RUN apt-get install -y wget gconf-service lib32gcc1 lib32stdc++6 libasound2 libc
                        libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 \
                        libgdk-pixbuf2.0-0 libgl1-mesa-glx libglu1-mesa libgtk2.0-0 \
                        libnspr4 libnss3 libpango1.0-0 libxcomposite1 libxcursor1 xdg-utils \
-                       libpq5 lsb-release npm
+                       libpq5 lsb-release npm apt-transport-https ca-certificates
 ## cache or [download](https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.350256/)
 #COPY unity-editor_amd64-5.6.2xf1Linux.deb /opt/
 #RUN dpkg -i /opt/unity-editor_amd64-5.6.2xf1Linux.deb
